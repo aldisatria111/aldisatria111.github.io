@@ -558,12 +558,12 @@ footer span a:hover{
 
 /*responsive media query start*/
 
-@media (max-width: 1500px ){
+@media (max-width: 1000px ){
     .home .max-width{
         margin-left: 0px;
     }
 }
-@media (max-width: 1300px ){
+@media (max-width: 800px ){
     .about .about-content .left img{
         height: 350px;
         width: 350px;
@@ -575,7 +575,7 @@ footer span a:hover{
         margin-bottom: 15px;
     }
 }
-@media (max-width: 1000px ){
+@media (max-width: 700px ){
    
     .max-width{
         padding: 0 50px;
@@ -640,7 +640,7 @@ footer span a:hover{
 
 }
 
-@media (max-width: 650px ){
+@media (max-width: 350px ){
     .home .home-content .text-2{
         font-size: 65px;
     }
