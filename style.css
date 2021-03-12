@@ -558,12 +558,12 @@ footer span a:hover{
 
 /*responsive media query start*/
 
-@media (max-width: 1000px ){
+@media (max-width: 1500px ){
     .home .max-width{
         margin-left: 0px;
     }
 }
-@media (max-width: 800px ){
+@media (max-width: 1300px ){
     .about .about-content .left img{
         height: 350px;
         width: 350px;
@@ -575,7 +575,7 @@ footer span a:hover{
         margin-bottom: 15px;
     }
 }
-@media (max-width: 700px ){
+@media (max-width: 1000px ){
    
     .max-width{
         padding: 0 50px;
@@ -640,7 +640,7 @@ footer span a:hover{
 
 }
 
-@media (max-width: 350px ){
+@media (max-width: 650px ){
     .home .home-content .text-2{
         font-size: 65px;
     }
@@ -652,4 +652,31 @@ footer span a:hover{
         padding: 9px 25px;
     }
 
+}
+@media (max-width: 400px){
+    .home {
+        display: flex;
+        background-size: cover;
+        background-position: center;
+    }
+    .home .home-content .text-1{
+        font-size: 20px;
+    }
+    .home .home-content .text-2{
+        font-size: 40px;
+    }
+    .home .home-content .text-3{
+        font-size: 25px;
+    }
+    .services .title::after{
+        background: #111;
+        content: "What I Provide";
+        font-size: 18px;
+    }
+    .work .title::after{
+        background: #111;
+        content: "What I'Ve Done";
+        font-size: 17px;
+    }
+    
 }
