@@ -671,12 +671,28 @@ footer span a:hover{
     .services .title::after{
         background: #111;
         content: "What I Provide";
-        font-size: 18px;
+        font-size: 12px;
     }
     .work .title::after{
         background: #111;
         content: "What I'Ve Done";
-        font-size: 17px;
+        font-size: 12px;
     }
-    
+    .contact .title::after{
+        content: "Get in Touch";
+        font-size: 12px;
+    }
+    .skills .title::after{
+        content: "What I Know";
+        font-size: 12px;
+    }
+    .about .title::after{
+        content: "Who I Am";
+        font-size: 12px;
+    }
+    .navbar .menu li a{
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 25px;
+    }
 }
