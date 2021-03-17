@@ -140,9 +140,6 @@ section .title::after {
   filter: grayscale(0);
   transform: scale(1.05);
 }
-.gallery .btn {
-  text-decoration: none;
-}
 .gallery .modal img {
   filter: grayscale(0);
   cursor: default;
