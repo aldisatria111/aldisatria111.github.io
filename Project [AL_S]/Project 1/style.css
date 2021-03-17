@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Quicksand:wght@300;400;500&display=swap");
+.jumbotron {
+  padding: 280px 150px;
+  background: url("img/wedding-2.jpg") no-repeat center;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+.jumbotron h1 {
+  font-family: "Dancing Script", cursive;
+  text-align: right;
+}
+.jumbotron p {
+  text-align: right;
+}
+
+/* All Section */
+section .title {
+  position: relative;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-family: "Quicksand", sans-serif;
+  padding: 20px;
+  font-weight: 600;
+}
+section .title::before {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 165px;
+  height: 3px;
+  background: #ffd587;
+  transform: translateX(-50%);
+}
+section .title::after {
+  content: "♥";
+  position: absolute;
+  bottom: -12px;
+  left: 50%;
+  font-size: 20px;
+  color: #ff97f1;
+  padding: 5px;
+  background: #fff;
+  transform: translateX(-50%);
+}
+.about,
+.event,
+.story,
+.gallery {
+  padding: 50px 0;
+}
+.event,
+.gallery {
+  background: #fff4e0;
+}
+
+/* about */
+
+.about .text,
+.story .text,
+.event .text,
+.gallery .text {
+  margin-top: 10px;
+  font-size: 30px;
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+}
+.about img {
+  width: 200px;
+  border-radius: 50%;
+  border: 4px solid #fff4e0;
+  align-items: center;
+  position: relative;
+}
+.about p {
+  margin-top: 20px;
+}
+
+/* event */
+.event .title::after {
+  background: #fff4e0;
+}
+.event .row .col-md-6 {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.event .row .col-md-6:hover {
+  transform: scale(1.05);
+}
+.event img {
+  height: 300px;
+}
+
+/* story */
+
+.story img {
+  width: 300px;
+  border-radius: 10%;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.story .row .col {
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border-radius: 10%;
+}
+.story .row .col:hover {
+  background: #fff4e0;
+  transform: scale(1.05);
+}
+
+/* gallery */
+
+.gallery .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.gallery .row .col {
+  flex: 33.3%;
+  height: 100%;
+  padding: 0 10px;
+}
+.gallery .row .col img {
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
+}
+.gallery .title::after {
+  background: #fff4e0;
+}
+.gallery img {
+  filter: grayscale(1) brightness(0.5);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.gallery img:hover {
+  filter: grayscale(0);
+  transform: scale(1.05);
+}
+
+@media only screen and (max-width: 800px) {
+  .gallery .row .col {
+    flex: 50%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .gallery .row .col {
+    flex: 100%;
+  }
+}
