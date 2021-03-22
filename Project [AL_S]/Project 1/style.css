@@ -13,6 +13,7 @@
 .jumbotron p {
   text-align: right;
 }
+
 .timer { 
   width: 550px;
   height: 150px;
@@ -24,48 +25,6 @@
   margin: auto;
   text-align: center;
   
-}
-
-.countdown {
-  position: relative;
-  background: #fff4e0;
-  border: 2px solid blanchedalmond;
-  margin-top: 20px;
-  text-align: center;
-  padding: 20px;
-}
-
-.countdown .timer {
-  font-family: "Dancing Script", cursive;
-  display: inline-block;
-  top: 50%;
-  left: 50%;
-  margin: 15px 30px;
-  width: 120px;
-  font-size: 50px;
-  background: rgba(255, 172, 46, 0.5);
-  border-radius: 10px;
-  box-shadow: 15px 10px 20px #6660;
-  color: rgb(141, 141, 141);
-}
-.countdown h6 {
-  font-size: 20px;
-  font-family: Georgia, "Times New Roman", Times, serif;
-}
-/*  */
-.countdowntimer {
-  margin: auto;
-  text-align: center;
-  top: 50%;
-  left: 50%;
-  padding: 10px;
-  background: blue;
-}
-.countdown td {
-  margin-right: 10px;
-}
-.countdown .info {
-  font-size: 100px;
 }
 /* All Section */
 section .title {
