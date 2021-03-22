@@ -13,6 +13,18 @@
 .jumbotron p {
   text-align: right;
 }
+.timer { 
+  width: 550px;
+  height: 150px;
+  margin: auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.timer .flipdown{
+  margin: auto;
+  text-align: center;
+  
+}
 
 .countdown {
   position: relative;
