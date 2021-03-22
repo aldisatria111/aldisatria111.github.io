@@ -25,7 +25,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
+          <ul class="navbar-nav m-auto">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">HOME</a>
             </li>
@@ -54,6 +54,31 @@
       <p class="lead">Sunday, 18 March 2025</p>
     </section>
     <!-- Home End -->
+
+    <!-- Countdown -->
+
+    <section class="countdown">
+      <div class="container">
+        <div class="timer">
+          <p id="days"></p>
+          <h6>Days</h6>
+        </div>
+        <div class="timer">
+          <p id="hours"></p>
+          <h6>Hours</h6>
+        </div>
+        <div class="timer">
+          <p id="minutes"></p>
+          <h6>Minutes</h6>
+        </div>
+        <div class="timer">
+          <p id="seconds"></p>
+          <h6>Seconds</h6>
+        </div>
+    </div>
+    </section>
+
+    <!-- Countdown end -->
 
     <!-- About -->
 
@@ -306,7 +331,40 @@
       <span>Create By <a href="#">Aldi Satriandhika</a> | <span class="far fa-copyright"></span> 2021 All rights reserved.</span> 
     </div>
 
+    <script type="text/javascript">
+   
+   function countdown() {
+  var now = new Date();
+  var eventDate = new Date(2025, 03, 18);
 
+  var currentTime = now.getTime();
+  var eventTime = eventDate.getTime();
+  var remTime = eventTime - currentTime;
+  var s = Math.floor(remTime / 1000);
+  var m = Math.floor(s / 60);
+  var h = Math.floor(m / 60);
+  var d = Math.floor(h / 24);
+
+  h %= 24;
+  m %= 60;
+  s %= 60;
+  h = h < 10 ? "0" + h : h;
+  m = m < 10 ? "0" + m : m;
+  s = s < 10 ? "0" + s : s;
+
+  document.getElementById("days").textContent = d;
+  document.getElementById("days").innerText = d;
+  document.getElementById("hours").textContent = h;
+  document.getElementById("minutes").textContent = m;
+  document.getElementById("seconds").textContent = s;
+
+  setTimeout(countdown, 1000);
+
+}
+
+countdown();
+
+    </script>
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
   </body>
