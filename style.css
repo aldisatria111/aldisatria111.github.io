@@ -200,7 +200,7 @@ section .title::after{
     height: 400px;
     width: 400px;
     object-fit: cover;
-    border-radius: 6px;
+    border-radius: 50%;
     border: 3px solid #717BF3;
 }
 .about .about-content .right{
