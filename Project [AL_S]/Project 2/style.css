@@ -1,0 +1,66 @@
+.carousel-caption {
+  margin-bottom: 180px;
+}
+.categories {
+  padding: 50px;
+}
+.categories h2 {
+  margin-bottom: 50px;
+}
+.categories .col {
+  text-align: center;
+}
+.categories .col i {
+  margin-bottom: 20px;
+  font-size: 40px;
+  color: rgb(21, 21, 161);
+  cursor: pointer;
+}
+.content .row {
+  margin-top: 50px;
+}
+.content .row h4 h6 p {
+  margin-left: 10px;
+}
+.content {
+  background-color: rgba(107, 107, 243, 0.2);
+  padding: 30px;
+  padding-bottom: 50px;
+}
+.best {
+  padding: 40px;
+}
+.best h5 {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: 200;
+  font-style: italic;
+  font-size: 20px;
+}
+.best figure img {
+  width: 100px;
+  height: 100px;
+  margin: 60px 12px 10px;
+  opacity: 0.5;
+}
+.best figure img.utama {
+  width: 150px;
+  height: 150px;
+  margin-top: 30px;
+  opacity: 1;
+}
+.best figure h5 {
+  font-size: 16px;
+  font-style: normal;
+  color: #acacac;
+  margin-top: 5px;
+}
+.best figure p {
+  font-size: 12px;
+  font-style: normal;
+  margin-top: -5px;
+  color: #acacac;
+}
+.best figcaption {
+  text-align: center;
+}
